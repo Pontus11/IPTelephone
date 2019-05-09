@@ -1,10 +1,3 @@
-/*
-    private final String toolbarColor = "-fx-background-color: #171717;";
-    private final String hoverColor = "-fx-background-color: #898686;";
-    private final String centerColor = "-fx-background-color: #222222;";
-    private final String centerBottomColor = "-fx-background-color: #202020;";
-    private final String textFieldColor = "-fx-background-color: #FFFFFF;";
-*/
 .list-view{
     -fx-background-color: #222222;
     -fx-padding: 0;
