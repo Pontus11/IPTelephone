@@ -73,8 +73,8 @@ public class IPTServer {
     private void createDBConnection() {
         try {
             String url = "jdbc:sqlite:users.db";
-            String username = "narren";
-            String password = "narren112asd";
+            String username = "username";
+            String password = "password";
             dbConnect = DriverManager.getConnection(url, username, password);
         } catch(Exception e) {
             System.out.println(e);
