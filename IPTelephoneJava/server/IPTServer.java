@@ -391,7 +391,6 @@ public class IPTServer {
     public synchronized void userLogin(ClientConnection connection, String username, String password) {
         if(validateUser(username,password)) {
             onlineConnections.put(username,connection);
-            //ta bort pass?
             byte[] imageByte = getUserPictureFromDB(username);
             System.out.println(imageByte);
             ServerMessage sm = new ServerMessage("LOGIN SUCCESSFUL", username, password, getUserPictureFromDB(username));
@@ -714,7 +713,6 @@ public class IPTServer {
         if(args.length > 0) {
             IPTServer iptServer = new IPTServer(args[0]);
         }else{
-            System.out.println("hey");
             IPTServer iptServer = new IPTServer("19999");
         }
     }
