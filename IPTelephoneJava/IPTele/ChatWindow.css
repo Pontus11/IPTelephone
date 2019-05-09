@@ -1,0 +1,73 @@
+.chatArea {
+    -fx-background-color:#242424;
+    -fx-control-inner-background:#242424;
+    -fx-faint-focus-color: transparent;
+    -fx-font-family: Consolas;
+    -fx-highlight-text-fill: #000000;
+    -fx-text-fill: lightgray;
+}
+.chatArea .content {
+     -fx-background-radius: 0;
+ }
+
+.inputArea {
+    -fx-background-color: #303030;
+    -fx-control-inner-background:#303030;
+    -fx-faint-focus-color: transparent;
+    -fx-font-family: Consolas;
+    -fx-highlight-text-fill: #000000;
+    -fx-text-fill: lightgray;
+}
+.inputArea .scroll-pane{
+    -fx-hbar-policy:never;
+    -fx-vbar-policy:never;
+}
+.inputArea .content {
+    -fx-background-radius: 0;
+}
+
+
+.scrollPane .scroll-bar:vertical .thumb {
+    -fx-background-color: #171717;
+    -fx-background-insets: 6, 0, 0;
+    -fx-background-radius: 2em;
+}
+.scrollPane .viewport {
+    -fx-background-color: #222222;
+    -fx-border-color: #222222;
+}
+.scrollPane {
+    -fx-background: #222222;
+    -fx-border-color: #222222;
+    -fx-control-inner-background:#242424;
+    -fx-faint-focus-color: transparent;
+
+}
+.scrollPane .content {
+    -fx-background-radius: 0;
+}
+.scrollPane:focused {
+    -fx-background-insets: 0;
+}
+.scrollPane .scroll-bar:vertical .track {
+    -fx-background-color: #242424;
+    -fx-border-color: #242424;
+}
+
+.message {
+    -fx-padding: 1;
+}
+
+.usernameLabel {
+    -fx-border-radius: 20 20 0 0;
+    -fx-background-radius: 20 20 0 0;
+    -fx-font-size: 10;
+}
+
+.messageArea {
+    -fx-background-color: #303030;
+    -text-area-background: #303030;
+}
+.messageArea .content {
+    -fx-background-color: #303030 ;
+}

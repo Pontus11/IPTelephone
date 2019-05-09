@@ -1,0 +1,22 @@
+
+.slider .track {
+    -fx-background-insets: 0, 1;
+    -fx-indeterminate-bar-length: 60;
+    -fx-indeterminate-bar-escape: true;
+    -fx-indeterminate-bar-flip: true;
+    -fx-indeterminate-bar-animation-time: 2;
+}
+.slider .thumb {
+    -fx-background-color: #009A59;
+}
+
+
+.slider .track, .progress-bar .track {
+    -fx-background-color: -fx-shadow-highlight-color, linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border), -slider-track-color ;
+}
+.slider .track {
+    -fx-control-inner-background: #808080;
+    -fx-background-insets: 0 0 -1 0, 0, 1;
+    -fx-background-radius: 0.25em, 0.25em, 0.166667em; /* 3 3 2 */
+    -fx-padding: 0.25em; /* 3 */
+}

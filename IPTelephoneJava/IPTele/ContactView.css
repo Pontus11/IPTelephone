@@ -1,0 +1,78 @@
+/*
+    private final String toolbarColor = "-fx-background-color: #171717;";
+    private final String hoverColor = "-fx-background-color: #898686;";
+    private final String centerColor = "-fx-background-color: #222222;";
+    private final String centerBottomColor = "-fx-background-color: #202020;";
+    private final String textFieldColor = "-fx-background-color: #FFFFFF;";
+*/
+.list-view{
+    -fx-background-color: #222222;
+    -fx-padding: 0;
+}
+.list-cell{
+    -fx-background-color: #222222;
+    -fx-text-fill: lightgray;
+    -fx-padding: 1;
+    -fx-background-insets: 0,0;
+}
+
+
+.contactLabelStyle{
+    -fx-padding: 5,0,0,0;
+    -fx-font-size: 14;
+}
+.contactLabelStyle:hover {
+    -fx-text-fill: green;
+}
+
+.contactDisplay {
+    -fx-background-color: #303030;
+    -fx-background-radius: 20;
+
+}
+.contactDisplay:hover {
+    -fx-background-color: #898686;
+}
+.contactDisplayClicked {
+    -fx-background-color: #707070;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #171717;
+    -fx-background-insets: 6, 0, 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar .track {
+    -fx-background-color: #222222;
+}
+.increment-button ,
+.decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 20 0 0;
+
+}
+.increment-arrow,
+.decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding:0;
+}
+
+
+
+.contactRequestButton {
+    -fx-background-size: 20,20;
+}
+
+.contactRequestButton .text {
+    -fx-background-size: 20,20;
+    -fx-font-size: 20;
+}
+
+.acceptOrDeclineButton {
+    -fx-background-color: transparent;
+}
+.acceptOrDeclineButton .text{
+    -fx-font-size: 12;
+    -fx-text-fill: white;
+}
